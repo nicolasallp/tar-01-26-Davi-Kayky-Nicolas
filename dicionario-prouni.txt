@@ -1,0 +1,19 @@
+Davi Vitor da Silva
+Kayky Lourenço Martins
+Nícolas de Almeida Lopes
+
+
+Os dados utilizados nessa pesquisa foram obtidos na plataforma de Dados Abertos do Ministério da Educação, que disponibiliza informações públicos sobre o Programa Universidade para Todos em nível nacional. A base reúne dados referentes ao perfil dos beneficiários no estado de São Paulo entre os anos de 2005 e 2020. Após a coleta, os dados passaram por processos de extração, filtragem e tratamento utilizando a linguagem R. Esse procedimento permitiu organizar as informações e adequá-las ao escopo analítico da pesquisa.
+
+
+Variavel                |  Tipo_de_dado      |       Descricao
+----------------------------------------------------------------------------------------------------------------------------------
+ano_concessao_bolsa     |  inteiro           |     Ano em que a bolsa do Prouni foi concedida ao beneficiário
+tipo_bolsa              |  categórico        |     Tipo de bolsa concedida pelo Prouni (integral ou parcial)
+modalidade_ensino_bolsa |  categórico        |     Modalidade de ensino da bolsa concedida (ex.: presencial ou EAD)
+nome_curso_bolsa        |  texto             |     Nome do curso superior em que o beneficiário está matriculado
+turno                   |  categórico        |     Turno do curso frequentado pelo beneficiário (matutino, vespertino, noturno ou integral)
+sexo_beneficiario       |  categórico        |     Sexo do estudante beneficiário do Prouni
+raca_beneficiario       |  categórico        |     Autodeclaração de raça ou cor do beneficiário
+municipio_beneficiario  |  texto             |     Município de residência do beneficiário da bolsa
+instituicao_ensino      |  texto             |     Instituição de ensino superior onde o estudante recebeu a bolsa
