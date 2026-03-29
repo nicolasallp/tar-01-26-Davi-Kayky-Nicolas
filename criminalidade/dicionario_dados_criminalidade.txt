@@ -1,0 +1,37 @@
+Davi Vitor da Silva
+Kayky Lourenço Martins
+Nícolas de Almeida Lopes
+
+Dicionário de Dados
+
+Os dados utilizados nesta pesquisa foram obtidos na plataforma de estatísticas da Secretaria da Segurança Pública do Estado de São Paulo, que disponibiliza informações públicas sobre ocorrências criminais no estado de São Paulo entre os anos de 2001 e 2025. A base reúne dados mensais organizados por município e tipo de crime, permitindo a análise da evolução dos indicadores de segurança pública ao longo do tempo. Após a coleta, os dados passaram por processos de extração, filtragem e tratamento utilizando a linguagem R. Esse procedimento permitiu organizar as informações e adequá-las ao escopo analítico da pesquisa.  
+
+Variavel               		 	  		     |  Tipo_de_dado    |       Descricao
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ANO					  		     |  inteiro         |     Ano em que os crimes foram registrados
+MES	                		 		     |  texto		|     Mês em que os crimes foram registrados
+MUNICIPIO	        		  		     |  texto      	|     Munícipio onde os crimes foram registrados
+HOMICÍDIO DOLOSO (2)    		  		     |  inteiro         |     Registros de homicídio doloso 
+Nº DE VÍTIMAS EM HOMICÍDIO DOLOSO (3)     		     |  inteiro		|     Quantidade de vítimas por homicídio doloso 
+HOMICÍDIO DOLOSO POR ACIDENTE DE TRÂNSITO 		     |  inteiro         |     Registros de homicídio doloso por acidente de trânsito
+Nº DE VÍTIMAS EM HOMICÍDIO DOLOSO POR ACIDENTE DE TRÂNSITO   |  inteiro         |     Quantidade de vítimas por homicídio doloso por acidente de trânsito
+HOMICÍDIO CULPOSO POR ACIDENTE DE TRÂNSITO 		     |  inteiro         |     Registros de homicídio culposo por acidente de trânsito
+HOMICÍDIO CULPOSO OUTROS     		   		     |  inteiro         |     Registros de homicídio culposo por adversos
+TENTATIVA DE HOMICÍDIO    		   		     |  inteiro         |     Registros das tentativas de homicídios
+LESÃO CORPORAL SEGUIDA DE MORTE				     |  inteiro         |     Quantidade de vítimas mortas após uma lesão corporal
+LESÃO CORPORAL DOLOSA     		   		     |  inteiro         |     Quantidade de lesão corporal dolosa
+LESÃO CORPORAL CULPOSA POR ACIDENTE DE TRÂNSITO		     |  inteiro         |     Quantidade de lesão corporal culposa a acidente de trânsito
+LESÃO CORPORAL CULPOSA - OUTRAS     		    	     |  inteiro         |     Quantidade de lesão corporal culposa adversas
+LATROCÍNIO		    		   		     |  inteiro         |     Registros de latrocínio
+Nº DE VÍTIMAS EM LATROCÍNIO     		   	     |  inteiro         |     Quantidade de vítimas de latrocínio
+TOTAL DE ESTUPRO (4)     		   		     |  inteiro         |     Soma de estupro e estupro de Vulnerável.
+TOTAL DE ROUBO - OUTROS (1)				     |  inteiro         |     Registros de roubo adversos
+ROUBO DE VEÍCULO		     		    	     |  inteiro         |     Registros de roubo de veículos  
+ROUBO A BANCO			   		    	     |  inteiro         |     Registros de roubos de bancos financeiros
+ROUBO DE CARGA			     		    	     |  inteiro         |     Registros de roubo de carga de veículos 
+FURTO DE VEÍCULO					     |  inteiro         |     Registros de furto de veículos 
+FURTO - OUTROS			     		    	     |  inteiro         |     Registros de roubo adversos
+ESTUPRO				     		    	     |  inteiro         |     Registos de estupro
+ESTUPRO DE VULNERÁVEL			     		     |  inteiro         |     Registos de estupro de vulnerável
+
+
